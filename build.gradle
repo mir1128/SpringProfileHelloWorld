@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+group = 'com.loobo'
+version = '1.0-SNAPSHOT'
+
+description = """SpringProfileHelloWorld"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile 'org.springframework:spring-context:4.2.3.RELEASE'
+    compile 'org.springframework:spring-core:4.2.3.RELEASE'
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.github.stefanbirkner:system-rules:1.15.0'
+    testCompile 'org.springframework:spring:2.5.6.SEC03'
+    testCompile 'org.springframework:spring-test:4.2.3.RELEASE'
+}

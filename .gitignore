@@ -1,0 +1,7 @@
+target/
+.gradle/
+gradle/
+SpringProfileHelloWorld.iml
+SpringProfileHelloWorld.ipr
+SpringProfileHelloWorld.iws
+
